@@ -1,3 +1,5 @@
+## Official untouched kernel source SM-G715FN_QQ_Opensource_G715FNXXS6ATI1
+
 Linux kernel
 ============
 
@@ -16,3 +18,11 @@ See Documentation/00-INDEX for a list of what is contained in each file.
 Please read the Documentation/process/changes.rst file, as it contains the
 requirements for building and running the kernel, and information about
 the problems which may result by upgrading your kernel.
+
+## How to compile :
+
+'''sh
+export ANDROID_MAJOR_VERSION=q
+export ARCH=arm64
+make exynos9610-xcoverproxx_defconfig
+make -j24
