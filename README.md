@@ -21,7 +21,7 @@ the problems which may result by upgrading your kernel.
 
 ## How to compile :
 
-'''sh
+```sh
 export ANDROID_MAJOR_VERSION=q
 export ARCH=arm64
 make exynos9610-xcoverproxx_defconfig
