@@ -1,4 +1,4 @@
-## Official untouched kernel source SM-G715FN_QQ_Opensource_G715FNXXS6ATI1
+## Official Kernel Source SM-G715FN_QQ_Opensource_G715FNXXS6ATI1
 
 Linux kernel
 ============
