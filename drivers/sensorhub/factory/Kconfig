@@ -12,7 +12,7 @@ config SENSORS_SSP_ACCELOMETER
 	  factory test.
 	  To compile this driver as a module, choose M here: the
 	  module will be called ssp.
-
+	  
 config SENSORS_SSP_GYROSCOPE
 	tristate "Sensors ssp gyroscope sensor"
 	default n
@@ -23,7 +23,7 @@ config SENSORS_SSP_GYROSCOPE
 	  factory test.
 	  To compile this driver as a module, choose M here: the
 	  module will be called ssp.
-
+	  
 config SENSORS_SSP_MAGNETIC
 	tristate "Sensors ssp magnetic sensor"
 	default n
@@ -34,7 +34,7 @@ config SENSORS_SSP_MAGNETIC
 	  factory test.
 	  To compile this driver as a module, choose M here: the
 	  module will be called ssp.
-
+	  
 config SENSORS_SSP_PROXIMITY
 	tristate "Sensors ssp proximity sensor"
 	default n
@@ -45,7 +45,7 @@ config SENSORS_SSP_PROXIMITY
 	  factory test.
 	  To compile this driver as a module, choose M here: the
 	  module will be called ssp.
-
+	  
 config SENSORS_SSP_LIGHT
 	tristate "Sensors ssp light sensor"
 	default n
@@ -56,7 +56,7 @@ config SENSORS_SSP_LIGHT
 	  factory test.
 	  To compile this driver as a module, choose M here: the
 	  module will be called ssp.
-
+	  
 config SENSORS_SSP_BAROMETER
 	tristate "Sensors ssp barometer sensor"
 	default n
@@ -67,7 +67,7 @@ config SENSORS_SSP_BAROMETER
 	  factory test.
 	  To compile this driver as a module, choose M here: the
 	  module will be called ssp.
-
+	  
 config SENSORS_SSP_MOBEAM
 	tristate "Sensors ssp mobeam"
 	default n
@@ -77,7 +77,7 @@ config SENSORS_SSP_MOBEAM
           If you say yes here you get mobeam support using TMG399x.
 	  To compile this driver as a module, choose M here: the
 	  module will be called ssp.
-
+	  
 source "drivers/sensorhub/factory/Accelometer/Kconfig"
 source "drivers/sensorhub/factory/Gyroscope/Kconfig"
 source "drivers/sensorhub/factory/Magnetic/Kconfig"
