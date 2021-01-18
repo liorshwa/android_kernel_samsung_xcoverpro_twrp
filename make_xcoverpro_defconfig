@@ -1,6 +1,6 @@
 #!/bin/sh -x
 
-make mrproper
+make mrproper  
 
 rm -rf ./toolchain
 rm -f ./include/linux/ologk.h
